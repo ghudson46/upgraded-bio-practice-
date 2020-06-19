@@ -43,13 +43,15 @@ img {
   padding-top: 30x;
 }
 
-video {
+iframe {
   text-align: center;
-  margin: 0 auto;
+  margin-right: 20px;
+  margin-bottom: 20px;
   display: block;
-  width: 500px;
-  float: middle;
+  width: 45%;
+  float: right;
   display: inline-block;
+  border: 3px solid red;
 }
 
 .table-title {
@@ -62,18 +64,9 @@ video {
   text-align: center;
   color: navy;
   display: inline-block;
-  width: 700px;
+  width: 45%;
   margin: 0 auto;
   border: 3px solid navy;
   margin-bottom: 30px;
-}
-
-#divLeft {
-  width: 50%;
   float: left;
-}
-
-#divRight {
-  width: 50%;
-  float: right;
 }
